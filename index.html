@@ -1,988 +1,530 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <title>The New Omegle: Talk to Strangers</title>    
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, maximum-scale=5">
-    <meta name="description" content="Omegla is the new Omegle! With Omegla.Chat you can talk to strangers, make new friends, find dates. No account needed and totally free."> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omegla.Chat - The New Omegle Video Chat Alternative</title>
+    <meta name="description" content="Omegla.Chat is the best Omegle alternative. Find strangers for video chat, voice chat, and random chat rooms. Explore a diverse community and connect instantly.">
+    <meta name="keywords" content="omegle alternative, omegle, omegle chat, video chat, random chat, chat with strangers, omegle like, omegle video chat, ome.tv, chathub, chatrandom, ometv">
     <meta name="author" content="Omegla.Chat">
-    <meta name="publisher" content="Omegla.Chat">
-    <meta name="google" content="notranslate">  
-    <meta name="robots" content="index, follow">
-
-    <meta property="og:title" content="The New Omegle: Talk to Strangers">
-    <meta property="og:description" content="Omegla is the new Omegle! With Omegla.Chat you can talk to strangers, make new friends, find dates. No account needed and totally free.">
-    <meta property="og:type" content="Omegla.Chat">
-    <meta property="og:site_name" content="Omegla.Chat">
-    <meta property="og:url" content="https://www.omegla.chat/">  
-    <meta property="og:locale" content="en_EN">
-    <meta property="og:image" content="https://www.omegla.chat/images/Omegle-Chat.webp">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@OmeglaChat">
-    <meta name="twitter:title" content="The New Omegle: Talk to Strangers">
-    <meta name="twitter:description" content="Omegla is the new Omegle! With Omegla.Chat you can talk to strangers, make new friends, find dates. No account needed and totally free.">
-    <meta name="twitter:image" content="https://www.omegla.chat/images/Omegle-Chat.webp">
-
     <link rel="canonical" href="https://www.omegla.chat/">
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.omegla.chat/">
+    <meta property="og:title" content="Omegla.Chat - The New Omegle Video Chat Alternative">
+    <meta property="og:description" content="Omegla.Chat is the best Omegle alternative. Find strangers for video chat, voice chat, and random chat rooms. Explore a diverse community and connect instantly.">
+    <meta property="og:image" content="https://www.omegla.chat/images/omegle-chat-og.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.omegla.chat/">
+    <meta property="twitter:title" content="Omegla.Chat - The New Omegle Video Chat Alternative">
+    <meta property="twitter:description" content="Omegla.Chat is the best Omegle alternative. Find strangers for video chat, voice chat, and random chat rooms. Explore a diverse community and connect instantly.">
+    <meta property="twitter:image" content="https://www.omegla.chat/images/omegle-chat-og.jpg">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" rel="preload" as="style">
-    <meta name="ahrefs-site-verification" content="8053ae7ba050e3b0221b1b2a21a55f670b7371b2222a7edf3d257efd8388c503">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
-    
-    <link rel="alternate" type="text/html" hreflang="x-default" href="https://www.omegla.chat/" title="English">
-    <link rel="alternate" type="text/html" hreflang="en" href="https://www.omegla.chat/" title="English">
-    <link rel="alternate" type="text/html" hreflang="tr" href="https://www.omegla.chat/tr/" title="Türkçe">
-    <link rel="alternate" type="text/html" hreflang="de" href="https://www.omegla.chat/de/" title="Deutsch">
-    <link rel="alternate" type="text/html" hreflang="es" href="https://www.omegla.chat/es/" title="Español">
-    <link rel="alternate" type="text/html" hreflang="it" href="https://www.omegla.chat/it/" title="Italiano">
-    <link rel="alternate" type="text/html" hreflang="fr" href="https://www.omegla.chat/fr/" title="Français">
-    <link rel="alternate" type="text/html" hreflang="pt" href="https://www.omegla.chat/pt/" title="Português">
-    <link rel="alternate" type="text/html" hreflang="pl" href="https://www.omegla.chat/pl/" title="Polski">
-    <link rel="alternate" type="text/html" hreflang="ru" href="https://www.omegla.chat/ru/" title="Русский">
-    <link rel="alternate" type="text/html" hreflang="ar" href="https://www.omegla.chat/ar/" title="عربي">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <script src="https://analytics.ahrefs.com/analytics.js" data-key="lmbz2wYLpOyn1HcHtI+z1w" defer="true"></script>
+    <link rel="alternate" hreflang="en" href="https://www.omegla.chat/" />
+    <link rel="alternate" hreflang="tr" href="https://www.omegla.chat/tr/" />
+    <link rel="alternate" hreflang="de" href="https://www.omegla.chat/de/" />
+    <link rel="alternate" hreflang="es" href="https://www.omegla.chat/es/" />
+    <link rel="alternate" hreflang="it" href="https://www.omegla.chat/it/" />
+    <link rel="alternate" hreflang="fr" href="https://www.omegla.chat/fr/" />
+    <link rel="alternate" hreflang="pt" href="https://www.omegla.chat/pt/" />
+    <link rel="alternate" hreflang="pl" href="https://www.omegla.chat/pl/pl/" />
+    <link rel="alternate" hreflang="ru" href="https://www.omegla.chat/ru/" />
+    <link rel="alternate" hreflang="ar" href="https://www.omegla.chat/ar/" />
+
+    <meta name="ahrefs-site-verification" content="f8c1f93f9c34f0e737c352a16d8a0c20d753b827e8a939f1e1a87e0766b1d439">
 
     <style>
-        /* CSS proporcionado */
-        * {
+        body {
+            font-family: 'Urbanist', sans-serif;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: "Urbanist", sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
         }
 
         header {
+            background-color: #fff;
+            padding: 15px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             position: sticky;
             top: 0;
-            background-color: #212731;
-            color: white;
-            padding: 10px 20px;
+            z-index: 1000;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            z-index: 1000;
-            border-bottom: 1px solid #adbdeb59;
-            box-shadow: 0 0 20px #000000c9;
+            padding: 0 20px;
         }
 
-        .logo {
-            font-size: 1.5em;
-            font-weight: bold;
-        }
-
-        .logoLink {
-            color: white;
+        .logo a {
+            font-size: 28px;
+            font-weight: 700;
+            color: #4CAF50;
             text-decoration: none;
         }
 
-        .lowColor {
-            color: #fbe5ff70;
-        }
-
-        .language-switcher {
-            position: relative;
-        }
-
-        .language-switcher button {
-            background-color: #76777f87;
-            color: #ffffffd4;
-            padding: 10px 20px;
+        nav button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
             border: none;
+            border-radius: 5px;
             cursor: pointer;
-            border-radius: 0.5rem;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
         }
 
-        .language-switcher .dropdown-content {
+        nav button img {
+            margin-right: 8px;
+            width: 20px;
+            height: 20px;
+        }
+
+        .dropdown-content {
             display: none;
             position: absolute;
-            right: 0;
-            background-color: #ffffff;
-            min-width: 148px;
-            box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 34%);
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             z-index: 1;
             border-radius: 5px;
-            padding: 5px 0;
-            margin-top: 5px;
-            font-size: 13px;
-            letter-spacing: 1px;
-            text-transform: uppercase;
+            margin-top: 10px; /* Adjust as needed */
         }
 
-        .language-switcher .dropdown-content a {
+        .dropdown-content a {
             color: black;
-            padding: 8px 16px;
+            padding: 12px 16px;
             text-decoration: none;
             display: block;
         }
 
-        .language-switcher .dropdown-content a:hover {
-            background-color: #ddd;
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+            border-radius: 5px;
         }
 
-        .language-switcher .dropdown-content.show {
+        .dropdown-content.show {
             display: block;
-        }
-
-        .applet-switcher {
-            position: relative;
-        }
-
-        .applet-switcher button {
-            text-transform: uppercase;
-            background-color: #76777f87;
-            color: #ffffffd4;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-            border-radius: 0.5rem;
         }
 
         main {
-            text-align: center;
-        }
-
-        @media (max-width: 768px) {    
-            .mainContent img {
-                max-width: none;
-                width: 100%;
-            }
-            .language-switcher {
-                display: none;
-            }
-            header {
-                justify-content: center;
-            }
-            .jContent {
-                justify-content: space-between !important;
-            }
-            .content-3 {
-                height: auto !important;
-                min-height: 300px;
-                padding: 50px 0 60px 0;
-            }
-            .footerOtherApps {
-                display: grid;
-                grid-template-columns: repeat(2, 1fr) !important;
-                gap: 10px;
-            }
-            .footHead {
-                font-size: 17px !important;
-                margin-top: 20px !important;
-            }
-            .girlsButton {
-                margin: 20px 0 0 0 !important;
-                background: #c9005e !important;
-                color: white !important;
-            }
-            .bottomBadges {
-                display: flex !important;
-                width: 100% !important;
-                margin: auto !important;
-                flex-direction: column !important;
-            }
-            .content-1 h1 {
-                font-size: 2.5em !important;
-            }
-            .content-4 {
-                height: auto;
-                padding: 20px 10px 30px 10px !important;
-            }
-            .rateNchat {
-                gap: 0 !important;
-            }
-            .rateNchatOpenChat {
-                display: none;
-            }
-            .rating-box {
-                max-width: 80% !important;
-            }
-            .rating-details {
-                border-right: none !important;
-                padding: 5px 0 5px 20px !important;
-            }
-            .top-apps-grid {
-                grid-template-columns: repeat(2, 1fr) !important;
-                gap: 10px 40px;
-            }
-            .top-apps-grid a {
-                border-right: none !important;
-            }
-            .top-apps-grid a:last-child {
-                border-right: none !important;
-            }
-            .app-card {
-                border-bottom: none !important;
-            }
-            .rateNchatOpenOutChat {
-                display: block !important;
-            }
-            .chatAppsB button {
-                width: 100%;
-                margin-top: 10px;
-            }
-            tbody tr {
-                height: 55px !important;
-                font-size: 15px;
-            }
-            .upOfApps {
-                grid-template-columns: repeat(2, 1fr) !important;
-            }
-            .appsTopDiv img {
-                width: 90% !important;
-            }
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
         }
 
         .content-1 {
-            background: linear-gradient(to bottom, rgb(0 31 114 / 22%) 0%, rgb(99 20 169 / 0%) 50%), url(/images/BackGround.webp) no-repeat center center / cover;
-            height: calc(100vh - 53px);
-            height: calc(100dvh - 53px);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            color: white;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 20px;
         }
 
         .content-1 h1 {
             font-size: 3em;
-            margin-bottom: 10px;
-            text-shadow: 0 1px 5px #000000b3;
+            color: #4CAF50;
+            margin-bottom: 20px;
         }
 
         .content-1 p {
-            margin-bottom: 20px;
-            font-size: 20px;
-            text-shadow: 0 1px BLACK;
-            color: #ffffaa;
+            font-size: 1.2em;
+            margin-bottom: 30px;
         }
 
-        .content-1 button {
-            padding: 20px 30px;
-            color: #2f0723;
-            text-transform: uppercase;
-            font-size: 1.5rem;
-            background: #ffffec;
-            font-weight: 700;
+        .start-chat-btn {
+            background-color: #FF5722;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.5em;
             cursor: pointer;
-            border-radius: 2rem;
-            border: 2px solid #ffcee4;
-            box-shadow: 0 2px 10px #0c0a02d4;
+            transition: background-color 0.3s ease;
         }
 
-        .content-1 button:hover {
-            box-shadow: 0 2px 10px #fbf0c454;
-            background: none;
-            color: wheat;
-        }
-
-        .buttonExtra {
-            margin-bottom: 50px;
-        }
-
-        .girlsButton {
-            margin: 0 0 0 20px;
-            background: #c9005e !important;
-            color: white !important;
-        }
-
-        .content-2 {
-            background: url(/images/SubBack.webp);
-            background-size: cover;
-            background-position-y: bottom;
-            height: 220px;
-            padding-bottom: 55px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            color: white;
-        }
-
-        .content-2 h1 {
-            font-size: 3em;
-            margin-top: 10px;
-            text-shadow: 0 1px 5px #0000005e;
-        }
-
-        .content-2 p {
-            margin-bottom: 20px;
-            font-size: 20px;
-            text-shadow: 0 1px BLACK;
-            color: #ffffaa;
-        }
-
-        .content-3 {
-            background: linear-gradient(to bottom, rgb(0 31 114 / 22%) 0%, rgb(99 20 169 / 0%) 50%), url(/images/BackGround.webp) no-repeat center bottom / cover;
-            height: 300px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            color: white;
-        }
-
-        .content-3 h1 {
-            font-size: 3em;
-            margin-bottom: 10px;
-            text-shadow: 0 1px 5px #000000b3;
-        }
-
-        .content-3 p {
-            margin-bottom: 20px;
-            font-size: 20px;
-            text-shadow: 0 1px BLACK;
-            color: #ffffaa;
-            max-width: 90%;
-        }
-
-        .content-3 button {
-            padding: 20px 30px;
-            color: #2f0723;
-            text-transform: uppercase;
-            font-size: 1.5rem;
-            background: #ffffec;
-            font-weight: 700;
-            cursor: pointer;
-            border-radius: 2rem;
-            border: 2px solid #ffcee4;
-            box-shadow: 0 2px 10px #0c0a02d4;
-        }
-
-        .content-3 button:hover {
-            box-shadow: 0 2px 10px #fbf0c454;
-            background: none;
-            color: wheat;
-        }
-
-        .content-4 {
-            background: linear-gradient(to bottom, rgb(0 31 114 / 22%) 0%, rgb(99 20 169 / 0%) 50%), url(/images/BackGround-Apps.webp) no-repeat center bottom / cover;
-            height: auto;
-            padding: 30px 0 70px 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            color: white;
-        }
-
-        .content-4 h1 {
-            font-size: 3em;
-            margin-bottom: 10px;
-            text-shadow: 0 1px 5px #000000b3;
-        }
-
-        .content-4 p {
-            margin-bottom: 20px;
-            font-size: 20px;
-            text-shadow: 0 1px BLACK;
-            color: #ffffaa;
-            max-width: 90%;
+        .start-chat-btn:hover {
+            background-color: #E64A19;
         }
 
         .mainContent {
-            padding: 0 20px 20px 20px;
-            max-width: 1200px;
-            margin: auto;
-            text-align: justify;
-        }
-
-        .mainContent p {
-            font-size: 19px;
-            letter-spacing: 0.5px;
-            line-height: 25px;
-            margin: 15px 0;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
         }
 
         .mainContent h2 {
-            color: #212c6c;
-            font-size: 25px;
-            font-weight: 600;
-            margin-top: 25px;
-            text-align: center;
+            font-size: 2em;
+            color: #4CAF50;
+            margin-bottom: 15px;
         }
 
-        .mainContent h3 {
-            color: #34050a;
-            font-size: 20px;
-            font-weight: 600;
-            margin-top: 20px;
-            text-align: center;
-        }
-
-        .mainContent img {
-            max-width: 500px;
-            margin: auto;
-            display: flex;
-        }
-
-        .mainContent a {
-            font-weight: 600;
-            color: #c60a4a;
-        }
-
-        .mainContent a:hover {
-            text-decoration: none;
+        .mainContent p {
+            margin-bottom: 10px;
         }
 
         .mainContent ul {
-            text-align: center;
-            list-style: inside;
-            padding: 20px 0 0 0;
+            list-style: disc;
+            margin-left: 20px;
+            margin-bottom: 10px;
         }
 
-        .mainContent li {
-            font-size: 19px;
-            padding: 3px;
+        .mainContent ul li {
+            margin-bottom: 5px;
+        }
+
+        .image-section {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .image-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .call-to-action {
+            background-color: #4CAF50;
+            color: white;
+            padding: 30px;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .call-to-action h3 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+
+        .call-to-action p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .call-to-action .start-chat-btn {
+            background-color: #FF5722;
+            font-size: 1.8em;
+        }
+
+        .footerApps {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .footerApps h2 {
+            font-size: 2em;
+            color: #4CAF50;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .footerApps p {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .footerApps a {
+            text-decoration: none;
+            color: #333;
+            background-color: #e0e0e0;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .footerApps a:hover {
+            background-color: #d0d0d0;
         }
 
         footer {
-            background-image: url(/images/FootBGNew.webp);
-            background-color: #55595f;
-            background-repeat: no-repeat;
-            background-size: contain;
-            background-position-y: top;
+            background-color: #333;
             color: white;
+            padding: 30px 0;
             text-align: center;
-            padding: 25px 25px 25px;
+        }
+
+        footer p {
+            margin: 5px 0;
+            font-size: 0.9em;
         }
 
         footer a {
-            color: #ded398;
+            color: #4CAF50;
             text-decoration: none;
         }
 
         footer a:hover {
-            color: #ffe141;
             text-decoration: underline;
         }
 
-        .footHead  {
-            font-size: 20px;
-            display: block;
-            color: #eef2f6;
-            border-bottom: 1px solid #ffffff59;
-            padding-bottom: 20px;
-            max-width: 1200px;
-            margin: auto;
-            font-weight: 500;
-            margin-top: 25px;
-            margin-bottom: 25px;
-        }
-
-        .formDiv {
-            border-radius: 5px;
-            background-color: #a8a1ab26;
-            padding: 20px;
-            margin-bottom: 20px;
-            text-align: left;
-        }
-
-        .formDiv input[type=text], select, textarea {
-            width: 100%; /* Full width */
-            padding: 12px; /* Some padding */ 
-            border: 1px solid #ccc; /* Gray border */
-            border-radius: 4px; /* Rounded borders */
-            box-sizing: border-box; /* Make sure that padding and width stays in place */
-            margin-top: 6px; /* Add a top margin */
-            margin-bottom: 16px; /* Bottom margin */
-            resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-        }
-          
-        .formDiv input[type=submit] {
-            background-color: #4d3753;
-            color: white;
-            padding: 12px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-          
-        .formDiv input[type=submit]:hover {
-            background-color: #6b4077;
-        }
-
-        .footerOtherApps {
-            max-width: 1200px;
-            margin: auto;
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            gap: 10px;
-            margin-bottom: 25px;
-        }
-
-        .footerAppColor {
-            padding: 10px;
-            text-align: center;
-            text-decoration: none;
-            color: #fffad8;
-            border: 1px solid #cccccc4f;
-            border-radius: 5px;
-            border-style: dotted;
-        }
-
-        .footerAppColor:hover {
-            color: #ffed8c;
-            text-decoration: none;
-            background-color: #00000063;
-            border: 1px solid #cccccc91;
-        }
-
-        .onlyGirlsChat {
-            height: 50px;
-            margin: auto;
-            display: flex;
-            background: #ba2d65;
-            justify-content: center;
-            align-items: stretch;
-            flex-direction: column;
-            max-width: 400px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            border-radius: 40px;
-        }
-
-        .onlyGirlsChatA {
-            color: wheat;
-            text-transform: uppercase;
-            text-decoration: none;
-            font-size: 20px;
-            font-weight: 600;
-        }
-
-        .onlyGBG {
-            display: grid;
-            background-color: #302c2e;
-        }
-
-        .frameClass {
-            width: 100%;
-            height: calc(100% - 55px);
-            border: 0;
-        }
-
-        .frameClassTR {
-            width: 100%;
-            height: calc(100% - 125px);
-            border: 0;
-        }
-
-        .chatClicker {
-            width: 100%;
-            height: 100vh;
-            height: 100dvh;
-            border: 0;
-        }
-
-        .appsContent {
-            padding: 0 20px 20px 20px;
-            max-width: 1200px;
-            margin: auto;
-            text-align: justify;
-        }
-
-        .appsContent p {
-            letter-spacing: 0.5px;
-            line-height: 24px;
-            margin: 5px 0 5px 0;
-        }
-
-        .appsContent h2 {
-            font-size: 1.3rem;
-            font-weight: 800;
-            padding-bottom: 8px;
-            border-bottom: 1.5px solid #bbbbb57d;
-        }
-
-        .appsContent a {
-            color: #496678;
-            text-decoration: none;
-        }
-
-        .upOfApps {
-            margin: auto;
-            display: grid;
-            align-items: start;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 50px;
-            margin-top: 20px;
-            margin-bottom: 20px;
-        }
-
-        .appsAll {
-            display: grid;
-            gap: 10px;
-        }
-
-        .appLink {
-            text-decoration: none !important;
-            color: #665f3b !important;
-            font-weight: 600;
-        }
-
         .socialSharing {
-            display: flex;
-            justify-content: center;
-            margin: 20px 0 0 0;
-            gap: 10px;
-        }
-
-        .socialSharing img {
-            width: 20px;
-            height: 20px;
-            opacity: 0.8;
+            margin-top: 20px;
         }
 
         .socialSharing a {
-            border: 1px dotted #ffffff59;
-            border-radius: 30px;
-            height: 40px;
-            justify-content: center;
-            width: 40px;
-            display: flex;
-            align-items: center;
+            display: inline-block;
+            margin: 0 10px;
         }
 
-        .socialSharing a:hover {
-            border: 1px solid #ffffff;
+        .socialSharing img {
+            width: 30px;
+            height: 30px;
         }
 
-        .lastAdditions {
-            display: flex;
-            justify-content: center;
-            padding: 20px 0 10px;
-            gap: 20px;
-        }
-
-        .lastAdditions a {
-            color: #c60a4a;
-            font-size: 18px;
-        }
-
-        .bottomBadges {
-            display: flex;
-            width: 750px;
-            margin: auto;
-        }
-
-        .image-box {
-            flex: 1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 15px 0;
-        }
-
-        .image-box img {
-            max-width: none;
-            width: auto;
-        }
-
-        .imgHeight50 {
-            height: 50px;
-        }
-
-        .imgHeight100 {
-            height: 100px;
-        }
-
-        .png2015 {
-            padding: 20px 0 15px 0;
-        }
-
-        .copyrightText {
-            padding-top: 15px;
-            color: #d7d7ca;
-        }
-
-        .historyOf p {
-            padding: 10px 0;
-        }
-
-        .historyOf h2 {
-            padding-top: 15px;
-        }
-
-        .reviewing a {
-            font-weight: 700;
-            color: #c83600;
-            border-bottom: solid;
-        }
-
-        .reviewing a:hover {
-            font-weight: 700;
-            color: #c83600;
-            border-bottom: none;
-        }
-
-        .rating-box {
-            display: flex;
-            align-items: center;
-            gap: 16px;
-            max-width: 250px;
-        }
-
-        .ratingBrand {
-            display: flex;
-            font-size: 20px;
-            font-weight: 700;
-            gap: 10px;
-            flex-direction: column;
-            border-right: 1px dashed #ddd;
-            padding: 5px 45px 10px 0;
-        }
-          
-        .app-icon {
-            width: 70px;
-            object-fit: cover;
-            border-radius: 15px;
-            box-shadow: 0 2px 5px #23008038;
-            border-bottom: 1px solid purple;
-        }
-
-        .rating-text {
-            font-size: 18px;
-            font-weight: bold;
-            color: #1e293b;
-            margin-bottom: 5px;
-        }
-          
-        .rating-details {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            border-right: 1px dashed #ddd;
-            padding: 5px 40px 5px 25px;
-        }
-          
-        .rating-stars {
-            width: 150px;
-            height: auto;
-        }
-          
-        .votes {
-            margin-top: 5px;
-            font-size: 14px;
-            font-weight: 500;
-            color: #334155;
-        }
-
-        .rateNchat {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        #chatClicker {
+            display: none; /* Initially hidden */
             width: 100%;
-            padding: 10px 0 15px 0;
-            gap: 155px;
+            height: 600px; /* Adjust height as needed */
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            text-align: center; /* Center the image */
+            display: flex; /* Use flexbox for centering */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            overflow: hidden; /* Ensure image doesn't overflow */
         }
 
-        .chatAppsB button {
-            padding: 25px 30px;
-            color: #552680;
-            text-transform: uppercase;
-            font-size: 20px;
-            background: #89789612;
-            font-weight: 700;
-            cursor: pointer;
-            border-radius: 20px;
-            border: 2px dotted #552680;
-            box-shadow: 0 0 10px #8b8ea92e;
+        #chatClicker img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain; /* Ensure the image fits within the container without cropping */
         }
 
-        .chatAppsB button:hover {
-            box-shadow: 0 2px 10px #fbf0c454;
-            background: #eaecff;
-        }
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
 
-        .enterenceCentence {
-            font-size: 19px;
-            letter-spacing: 0.5px;
-            line-height: 25px;
-            padding: 25px 0 0 0;
-        }
+            .logo {
+                margin-bottom: 15px;
+            }
 
-        .top-apps-section {
-            text-align: center;
-            margin: 40px 0;
-        }
-          
-        .top-apps-section h2 {
-            margin-bottom: 25px;
-        }
-          
-        .top-apps-grid {
-            display: grid;
-            grid-template-columns: repeat(6, 1fr);
-            align-items: center;
-        }
+            nav {
+                width: 100%;
+            }
 
-        .top-apps-grid a {
-            border-right: 1px dashed #ddd;
-        }
+            nav button {
+                width: 100%;
+                justify-content: center;
+            }
 
-        .top-apps-grid a:hover {
-            text-decoration: underline !important;
-            background: #eaecff;
-        }
+            .dropdown-content {
+                position: static;
+                width: 100%;
+                box-shadow: none;
+                text-align: left;
+            }
 
-        .top-apps-grid a:last-child {
-            border-right: none;
-        }
-          
-        .app-card {
-            padding: 15px 10px;
-        }
-          
-        .app-name {
-            font-weight: bold;
-            margin-bottom: 15px;
-            font-size: 18px;
-            text-transform: capitalize;
-        }
+            .content-1 h1 {
+                font-size: 2.5em;
+            }
 
-        .rateNchatOpenOutChat {
-            display: none;
-        }
+            .start-chat-btn {
+                font-size: 1.2em;
+                padding: 12px 25px;
+            }
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 25px 0 35px 0;
-        }
+            .mainContent {
+                padding: 20px;
+            }
 
-        table tr {
-            text-align: center;
-            height: 40px;
-            border: 1px solid #ddd;
-        }
+            .mainContent h2 {
+                font-size: 1.8em;
+            }
 
-        thead tr {
-            height: 50px;
-        }
+            .call-to-action h3 {
+                font-size: 2em;
+            }
 
-        table td {
-            border: 1px solid #ddd;
-            padding: 5px;
-        }
+            .call-to-action .start-chat-btn {
+                font-size: 1.5em;
+            }
 
-        .appsTopDiv {
-            display: flex;
-            text-align: justify;
-            flex-direction: column;
-            margin-bottom: 30px;
-            align-items: center;
-        }
-
-        .appsTopDiv img {
-            width: 40%;
-            margin-bottom: 10px;
+            .footerApps p {
+                flex-direction: column;
+                align-items: center;
+            }
         }
     </style>
 </head>
 <body>
+
     <header>
-        <div class="logo"><a href="https://www.omegla.chat/" alt="Omegle" title="Omegla" class="logoLink">OMEGLA<span class="lowColor">CHAT</span></a></div>
-        <div class="language-switcher">
-            <button id="languageButton">Change Language</button>
-            <div id="languageDropdown" class="dropdown-content">
-                <a href="/">English</a>
-                <a href="/tr/">Türkçe</a>
-                <a href="/de/">Deutsch</a>
-                <a href="/es/">Español</a>
-                <a href="/it/">Italiano</a>
-                <a href="/fr/">Français</a>
-                <a href="/pt/">Português</a>
-                <a href="/pl/">Polski</a>
-                <a href="/ru/">Русский</a>
-                <a href="/ar/">عربي</a>
+        <div class="header-content">
+            <div class="logo">
+                <a href="/">OMEGLACHAT</a>
             </div>
+            <nav>
+                <button id="languageButton">
+                    <img src="/images/icon-language.svg" alt="Language">
+                    ES
+                </button>
+                <div class="dropdown-content" id="languageDropdown">
+                    <a href="/">English</a>
+                    <a href="/tr/">Türkçe</a>
+                    <a href="/de/">Deutsch</a>
+                    <a href="/es/">Español</a>
+                    <a href="/it/">Italiano</a>
+                    <a href="/fr/">Français</a>
+                    <a href="/pt/">Português</a>
+                    <a href="/pl/">Polski</a>
+                    <a href="/ru/">Русский</a>
+                    <a href="/ar/">العربية</a>
+                </div>
+            </nav>
         </div>
     </header>
+
     <main>
-        <div id="chatClicker" class="chatClicker" style="display:none;"></div>
-        <section id="chatClose" class="content content-1">
+        <div class="content-1" id="chatClose">
             <h1>The New Omegle Video Chat</h1>
-            <p>Talk one on one with <strong>Omegla Chat</strong>!</p>            <div class="buttonExtra">
-            <button id="startChatButton">Start Chat</button>
-                        </div>
-        </section>
-        <section class="mainContent">
-            
-        <h2>Omegle: Talk to Strangers</h2>
-        <p>Random video chat is today's most fun way to spend time and meet new people! In this field pioneered by **Omegle**, there is now Omegla.Chat — your go-to platform for exciting conversations.</p>
-        <p>With our service — the world's best alternative — you can video chat whenever you want, 🗨️ meet new people, and 🤝 make great friendships. And guess what? 💸 It’s completely free! No need to search for Omegle App on Google Play anymore. Just fire up Omegla right from your mobile or web browser and start chatting instantly. Ready to dive in? Let's go! 💬 🎉</p>
-        <img src="/images/Omegle.webp" alt="Omegle" title="Omegle">
-        <h2>Randomly Paired Video Chats</h2>
-        <p>You're craving a random video chat, but the big question is — with whom? Here's where the magic happens! 🌟 No need to scroll endlessly or search for hours. With **Omegle video chat**, you're instantly connected anonymously to someone with same interests to talk one-on-one, with just a click. It's that easy!</p>
-        <p>Not vibing with the person you're chatting with? No worries! Hit the "Next" button and jump right into a fresh conversation. Want to take things up a notch? Use our smart settings to match with people who share your interests. At Omegla.Chat, we're here to give you more than just random chats — we're delivering exciting connections you won't believe. Let's make it happen! 🚀</p>
-        <p>Personalize your Omegle experience to add excitement and ensure each conversation aligns with your interests for a unique and enjoyable time. Using the settings available on our home screen, you can make video chat more fun and relevant by connecting with people who share your passions. Instead of being paired randomly with millions of users, we simplify the process and match you with the right people effortlessly.</p>
-        <img src="/images/Omegle-Features.webp" alt="Omegle Features" title="Omegle Features">
-        <h2>The Best Features Designed for You</h2>
-        <p>Our **random video chat** site offers many more features than any other site or app you can find. We have reinvented the Omegle video call experience with superior video chat technology, ensuring a seamless connection that is as fast as text chat and delivers the best video quality.</p>
-        <p>To create a safer space, we’ve implemented parental control protections to assist parents in managing their children's online interactions. While users are solely responsible for their behavior, our platform's security measures protect against inappropriate conduct. Ready to explore these features? Visit our website today to start chatting with confidence!</p>
-        <a href=/privacy/" title="Privacy"><img src="/images/SafetyMeasures.webp" alt="Safe Video Chat" title="Safe Video Chat" class="png2015"></a>
-        <h2>Stay Safe in Omegle's Random Video Chat</h2>
-        <p>Jumping into **anonymous video chat** can be super exciting, but don't forget — the person on the other side is also a mystery! 🌍 With millions of strangers connecting through random chats, it's important to keep your privacy in check. Our platform offers top-notch moderation to keep things secure, but staying safe is a shared responsibility.</p>
-        <p>As you explore conversations from around the world, remember to be mindful and respectful. While we're doing our part to ensure a positive experience, staying alert and making smart choices will make your chat sessions even better.</p>
-        <p>Heads up! 🚨 **Omegle is strictly for users aged 18 and above.** Curious about the details? Check out Omegle's <a href="/terms/" title="Terms of Service">terms of service</a> for more info. 🔍 Plus, if you're a parent looking to keep things safe online, there are plenty of parental control protections to help you out! You can explore more at ConnectSafely.org and other helpful websites to keep things secure and worry-free.</p>
-        <img src="/images/Omegla-Chat.webp" alt="Omegle Chat" title="Omegle Chat">
-        <h2>You Are Ready for The New Omegle Experience?</h2>
-        <p>You've just unlocked everything you need to know about the Omegle app! 🌟 There's no need to keep searching — your next adventure is right here. Discover a whole new way to connect with people from around the world, whether you prefer text chat or video chat. Our platform is buzzing with millions of users, all excited to meet someone like you!</p>
-        <p>Ready to switch into fun mode and dive into amazing conversations? Just hit that "Start Chat" button and let the good vibes roll. New friends, fresh stories, and unforgettable moments are waiting for you. Let's go! 🚀</p>
-        <div class="bottomBadges">
-        <div class="image-box"><a href="/omegla-reviews/" title="Omegla Ratings, Reviews"><img src="/images/OmegleTrustindexRating.webp" alt="Omegle Trustindex" title="Omegle Trustindex" class="imgHeight50"></a></div>
-        <div class="image-box"><img src="/images/OfficialSite.webp" alt="Official Site" title="Official Site" class="imgHeight100"></div>
-        <div class="image-box"><img src="/images/OmeglePaymentOptions.webp" alt="Secure Payments" title="Secure Payments" class="imgHeight50"></div>
+            <p>Connect instantly with random strangers for fun video and text conversations. Explore a safe and diverse community from around the globe.</p>
+            <button class="start-chat-btn" id="startChatButton">Start Chat</button>
         </div>
-        <h2>Recently Added Omegle Alternative Platforms</h2>
-        <div class="lastAdditions">
-        <p>&#9733; <a href="/rabbitvideochat/" title="Rabbit Video Chat">Rabbit Video Chat</a></p>
-        <p>&#9733; <a href="/apps/epikchat/" title="EpikChat">EpikChat</a></p>
-        <p>&#9733; <a href="/apps/mnogochat/" title="Mnogochat">Mnogochat</a></p>
+
+        <div id="chatClicker" style="display: none;">
+            </div>
+
+        <div class="mainContent">
+            <h2>What is Omegla.Chat?</h2>
+            <p>Omegla.Chat is a free online platform that allows you to connect with strangers for video chat, voice chat, and random text conversations. It serves as a modern and enhanced alternative to the classic Omegle, offering similar functionalities with improved features and a focus on user safety and experience.</p>
+            <p>Whether you're looking to make new friends, practice a foreign language, or simply have a spontaneous conversation, Omegla.Chat provides a diverse and engaging environment. Our platform prioritizes anonymity and privacy, allowing you to connect without sharing personal information unless you choose to.</p>
         </div>
-        </section>
+
+        <div class="mainContent">
+            <h2>How Omegla.Chat Compares to Omegle</h2>
+            <p>While Omegle paved the way for random online chats, Omegla.Chat builds upon its legacy by addressing common concerns and introducing new advantages:</p>
+            <ul>
+                <li><strong>Enhanced Safety Measures:</strong> We employ advanced moderation techniques and a robust reporting system to minimize inappropriate content and behavior, providing a safer environment for all users.</li>
+                <li><strong>User-Friendly Interface:</strong> Our platform is designed for intuitive navigation, making it easier for new users to get started and find their way around.</li>
+                <li><strong>Reliable Connections:</strong> We strive for stable and high-quality video and audio connections to ensure a seamless chat experience.</li>
+                <li><strong>Diverse Community:</strong> Omegla.Chat attracts users from various backgrounds and cultures, fostering a rich and diverse environment for interactions.</li>
+                <li><strong>No Registration Required:</strong> Just like Omegle, you can start chatting immediately without the need for cumbersome sign-ups or personal data collection.</li>
+            </ul>
+        </div>
+
+        <div class="mainContent">
+            <h2>Features of Omegla.Chat</h2>
+            <p>Omegla.Chat offers a range of features to enhance your random chat experience:</p>
+            <ul>
+                <li><strong>Video Chat:</strong> Engage in face-to-face conversations with strangers from around the world. Our high-quality video streams ensure a clear and engaging experience.</li>
+                <li><strong>Text Chat:</strong> Prefer typing? Our text chat feature allows you to communicate silently and at your own pace.</li>
+                <li><strong>Gender Filters:</strong> Choose to connect with users of a specific gender to tailor your chat experience.</li>
+                <li><strong>Interest Tags:</strong> Add your interests to find like-minded individuals and have more meaningful conversations.</li>
+                <li><strong>Mobile Compatibility:</strong> Access Omegla.Chat seamlessly on your smartphone or tablet, allowing you to chat on the go.</li>
+            </ul>
+        </div>
+
+        <div class="mainContent">
+            <h2>Safety and Moderation</h2>
+            <p>At Omegla.Chat, user safety is our top priority. We have implemented several measures to ensure a secure and respectful environment:</p>
+            <ul>
+                <li><strong>Automated Moderation:</strong> Our system employs advanced algorithms to detect and filter inappropriate content, including nudity, hate speech, and violent imagery.</li>
+                <li><strong>Reporting System:</strong> Users can easily report any suspicious or offensive behavior. Our moderation team reviews these reports promptly and takes appropriate action, which may include banning users.</li>
+                <li><strong>No Personal Information Required:</strong> We do not ask for any personally identifiable information to start chatting, ensuring your anonymity.</li>
+                <li><strong>Age Restriction:</strong> Omegla.Chat is strictly for users 18 years and older. We encourage parents and guardians to monitor their children's online activity.</li>
+                <li><strong>Guidelines and Policies:</strong> We have clear terms of service and privacy policies that all users must adhere to. Violations can lead to immediate suspension from the platform.</li>
+            </ul>
+            <p>We encourage all users to exercise caution and never share sensitive personal information with strangers. If you encounter any behavior that violates our guidelines, please report it immediately.</p>
+        </div>
+
+        <div class="mainContent">
+            <h2>Popular Omegle Alternatives</h2>
+            <p>While Omegla.Chat strives to be the best alternative, there are other popular platforms that offer similar random chat experiences:</p>
+            <ul>
+                <li><a href="/apps/ome.tv/" title="OmeTV">OmeTV</a>: A well-known platform for video chat with strangers, offering a global community.</li>
+                <li><a href="/apps/chathub/" title="ChatHub">ChatHub</a>: Connects you with random users for video chat, often featuring gender and country filters.</li>
+                <li><a href="/apps/chatrandom/" title="ChatRandom">ChatRandom</a>: Offers a variety of chat options, including video chat, text chat, and specialized rooms.</li>
+                <li><a href="/apps/camloo/" title="Camloo">Camloo</a>: A simple and fast platform for random video chats.</li>
+                <li><a href="/apps/monkeyapp/" title="Monkey App">Monkey App</a>: Popular among younger audiences for quick video chats.</li>
+                <li><a href="/apps/shagle/" title="Shagle">Shagle</a>: Connects you with strangers for video chat with gender and country filters.</li>
+                <li><a href="/apps/joingy/" title="Joingy">Joingy</a>: Provides both video and text chat options for random connections.</li>
+                <li><a href="/chatville/" title="ChatVille">ChatVille</a>: A diverse chat platform with various chat rooms and video capabilities.</li>
+                <li><a href="/apps/cammatch/" title="CamMatch">CamMatch</a>: Focuses on matching users for video chat based on interests.</li>
+                <li><a href="/apps/callmechat/" title="CallMeChat">CallMeChat</a>: A platform for quick and easy video calls with strangers.</li>
+                <li><a href="/flirtbees/" title="FlirtBees">FlirtBees</a>: Geared towards flirting and dating through video chat.</li>
+                <li><a href="/apps/luckycrush/" title="LuckyCrush">LuckyCrush</a>: A popular platform for random video chats with a focus on male-female connections.</li>
+                <li><a href="/apps/pinkvideochat/" title="Pink Video Chat">Pink Video Chat</a>: Another option for video chat with a focus on dating and flirting.</li>
+                <li><a href="/chatingly/" title="Chatingly">Chatingly</a>: Offers various chat modes, including video and text.</li>
+                <li><a href="/anonymouschat/" title="Anonymous Chat">Anonymous Chat</a>: For those who prefer to keep their identity hidden during conversations.</li>
+                <li><a href="/chatpig/" title="ChatPig">ChatPig</a>: Provides random video chat connections.</li>
+                <li><a href="/omgchat/" title="OMGChat">OMGChat</a>: A platform for video and text chat with strangers.</li>
+                <li><a href="/miramichat/" title="Mirami Chat">Mirami Chat</a>: Another random video chat site.</li>
+            </ul>
+            <p>Each of these platforms offers a unique experience, and we encourage you to explore them to find the one that best suits your preferences.</p>
+        </div>
+
+        <div class="call-to-action">
+            <h3>Start Your Chat Journey Today!</h3>
+            <p>Ready to connect with someone new? Click the button below to start your exciting random chat adventure on Omegla.Chat.</p>
+            <button class="start-chat-btn" id="startChatButtonAgain">Start Chat</button>
+        </div>
     </main>
+
     <footer>
-        
-    <span class="footHead">Omegla.Chat - The New Omegle</span>
-    <p class="footerOtherApps">
-<a href="/" title="Omegle Chat" class="footerAppColor">Omegle</a>
-<a href="/apps/coomeet/" title="CooMeet" class="footerAppColor">CooMeet</a>
-<a href="/strangercam/" title="Stranger Cam" class="footerAppColor">StrangerCam</a>
-<a href="/apps/chatrandom/" title="Chat Random" class="footerAppColor">ChatRandom</a>
-<a href="/1v1chat/" title="1v1 Chat" class="footerAppColor">1v1 Chat</a>
-<a href="/apps/camloo/" title="Camloo" class="footerAppColor">Camloo</a>
-<a href="/apps/monkeyapp/" title="Monkey App" class="footerAppColor">Monkey App</a>
-<a href="/apps/shagle/" title="Shagle" class="footerAppColor">Shagle</a>
-<a href="/apps/joingy/" title="Joingy" class="footerAppColor">Joingy</a>
-<a href="/chatville/" title="ChatVille" class="footerAppColor">ChatVille</a>
-<a href="/apps/cammatch/" title="CamMatch" class="footerAppColor">CamMatch</a>
-<a href="/apps/callmechat/" title="CallMeChat" class="footerAppColor">CallMeChat</a>
-<a href="/flirtbees/" title="FlirtBees" class="footerAppColor">FlirtBees</a>
-<a href="/apps/luckycrush/" title="LuckyCrush" class="footerAppColor">LuckyCrush</a>
-<a href="/apps/pinkvideochat/" title="Pink Video Chat" class="footerAppColor">Pink Video Chat</a>
-<a href="/chatingly/" title="Chatingly" class="footerAppColor">Chatingly</a>
-<a href="/anonymouschat/" title="Anonymous Chat" class="footerAppColor">Anonymous Chat</a>
-<a href="/chatpig/" title="ChatPig" class="footerAppColor">ChatPig</a>
-<a href="/omgchat/" title="OMGChat" class="footerAppColor">OMGChat</a>
-<a href="/miramichat/" title="Mirami Chat" class="footerAppColor">Mirami Chat</a>
-</p>
-    <p><a href="/apps/">Apps</a> &nbsp;&nbsp; <a href="/adult-apps/">Adult Apps</a> &nbsp;&nbsp; <a href="/video-chat-sites/">Video Chat</a> &nbsp;&nbsp; <a href="/omegle-history/">History</a> &nbsp;&nbsp; <a href="/terms/">Term Of Use</a> &nbsp;&nbsp; <a href="/privacy/">Privacy Policy</a> &nbsp;&nbsp; <a href="/contact/">Contact</a></p>
-    <p class="copyrightText">Copyright 2025 © <a href="https://www.omegla.chat/" title="Omegle Chat">Omegle</a></p>
-    <div class="socialSharing">
-    <a href="https://www.facebook.com/profile.php?id=61567825674717" target="_blank alt="Facebook" title="Facebook""><img src="/images/icon-facebook.svg" alt="Facebook" title="Facebook"></a>
-    <a href="https://www.instagram.com/omglachat/" target="_blank alt="Instagram" title="Instagram""><img src="/images/icon-instagram.svg" alt="Instagram" title="Instagram"></a>
-    <a href="https://x.com/ChatOmegla" target="_blank alt="Twitter" title="Twitter""><img src="/images/icon-twitterx.svg" alt="Twitter" title="Twitter"></a>
-    <a href="https://www.linkedin.com/showcase/omegla-chat/" target="_blank alt="Linkedin" title="Linkedin""><img src="/images/icon-linkedin.svg" alt="Linkedin" title="Linkedin"></a>
-    </div>
+        <div class="footerApps">
+            <h2>Latest Additions</h2>
+            <p class="footerOtherApps">
+                <a href="/apps/ome.tv/" title="OmeTV" class="footerAppColor">OmeTV</a>
+                <a href="/apps/chathub/" title="ChatHub" class="footerAppColor">ChatHub</a>
+                <a href="/apps/chatrandom/" title="ChatRandom" class="footerAppColor">ChatRandom</a>
+                <a href="/1v1chat/" title="1v1 Chat" class="footerAppColor">1v1 Chat</a>
+                <a href="/apps/camloo/" title="Camloo" class="footerAppColor">Camloo</a>
+                <a href="/apps/monkeyapp/" title="Monkey App" class="footerAppColor">Monkey App</a>
+                <a href="/apps/shagle/" title="Shagle" class="footerAppColor">Shagle</a>
+                <a href="/apps/joingy/" title="Joingy" class="footerAppColor">Joingy</a>
+                <a href="/chatville/" title="ChatVille" class="footerAppColor">ChatVille</a>
+                <a href="/apps/cammatch/" title="CamMatch" class="footerAppColor">CamMatch</a>
+                <a href="/apps/callmechat/" title="CallMeChat" class="footerAppColor">CallMeChat</a>
+                <a href="/flirtbees/" title="FlirtBees" class="footerAppColor">FlirtBees</a>
+                <a href="/apps/luckycrush/" title="LuckyCrush" class="footerAppColor">LuckyCrush</a>
+                <a href="/apps/pinkvideochat/" title="Pink Video Chat" class="footerAppColor">Pink Video Chat</a>
+                <a href="/chatingly/" title="Chatingly" class="footerAppColor">Chatingly</a>
+                <a href="/anonymouschat/" title="Anonymous Chat" class="footerAppColor">Anonymous Chat</a>
+                <a href="/chatpig/" title="ChatPig" class="footerAppColor">ChatPig</a>
+                <a href="/omgchat/" title="OMGChat" class="footerAppColor">OMGChat</a>
+                <a href="/miramichat/" title="Mirami Chat" class="footerAppColor">Mirami Chat</a>
+            </p>
+        </div>
+        <p><a href="/apps/">Apps</a> &nbsp;&nbsp; <a href="/adult-apps/">Adult Apps</a> &nbsp;&nbsp; <a href="/video-chat-sites/">Video Chat</a> &nbsp;&nbsp; <a href="/omegle-history/">History</a> &nbsp;&nbsp; <a href="/terms/">Term Of Use</a> &nbsp;&nbsp; <a href="/privacy/">Privacy Policy</a> &nbsp;&nbsp; <a href="/contact/">Contact</a></p>
+        <p class="copyrightText">Copyright 2025 © <a href="https://www.omegla.chat/" title="Omegle Chat">Omegle</a></p>
+        <div class="socialSharing">
+            <a href="https://www.facebook.com/profile.php?id=61567825674717" target="_blank" alt="Facebook" title="Facebook"><img src="/images/icon-facebook.svg" alt="Facebook" title="Facebook"></a>
+            <a href="https://www.instagram.com/omglachat/" target="_blank" alt="Instagram" title="Instagram"><img src="/images/icon-instagram.svg" alt="Instagram" title="Instagram"></a>
+            <a href="https://x.com/ChatOmegla" target="_blank" alt="Twitter" title="Twitter"><img src="/images/icon-twitterx.svg" alt="Twitter" title="Twitter"></a>
+            <a href="https://www.linkedin.com/showcase/omegla-chat/" target="_blank" alt="Linkedin" title="Linkedin"><img src="/images/icon-linkedin.svg" alt="Linkedin" title="Linkedin"></a>
+        </div>
     </footer>
 
     <script>
@@ -990,24 +532,28 @@
             document.getElementById('languageDropdown').classList.toggle('show');
         });
 
+        // Modificamos esta parte para mostrar la imagen
         document.getElementById('startChatButton').addEventListener('click', function() {
             var chatClicker = document.getElementById('chatClicker');
             var chatClose = document.getElementById('chatClose');
 
             if (chatClicker.style.display === 'none') {
-                chatClicker.style.display = 'block';
-                var iframeContent = `
-                                        <div id='coomeet_container' style='width:100%; height:100%'>
-                        <iframe allowusermedia allow="camera *;microphone *" src="https://ftf.live/app?tc=7bpTRu" class="frameClass" allowfullscreen></iframe>
-                    </div>
+                chatClicker.style.display = 'flex'; // Usamos 'flex' para centrar la imagen
+                var imageContent = `
+                    <img src="data:image/jpeg;base64,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" alt="Placeholder Image for Chat">
                 `;
-                chatClicker.innerHTML = iframeContent;
+                chatClicker.innerHTML = imageContent;
                 chatClose.style.display = 'none';
             } else {
                 chatClicker.style.display = 'none';
                 chatClicker.innerHTML = '';
                 chatClose.style.display = 'block';
             }
+        });
+
+        // Asegúrate de que el segundo botón de "Start Chat" también funcione
+        document.getElementById('startChatButtonAgain').addEventListener('click', function() {
+            document.getElementById('startChatButton').click(); // Simula el clic en el primer botón
         });
 
         window.onclick = function(event) {
@@ -1023,8 +569,6 @@
         }
     </script>
     
-    
-
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HCV36GBVGD"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
